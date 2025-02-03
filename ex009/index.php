@@ -37,9 +37,9 @@
 
             echo "<br>";
 
-            $cor = azul
+            $cor = "azul";
 
-            switch($cor){
+            switch ($cor){
 
                 case "vermelho":
                 case "laranja":
@@ -55,8 +55,28 @@
 
             }
 
+            echo "<br>";
 
+            $numero = null;
 
+            switch(true){
+
+                case (is_numeric ($numero) && $numero <5):
+                    echo "O numero é menor que 5.";
+                    break;
+                    case ($numero == 5):
+                        echo "numero é igual a 5.";
+                        break;
+                case ($numero > 5 ):
+                    echo "o numero é maior que 5.";
+                    break;
+                    default:
+                    echo "numero desconhecido.";
+                    break;
+
+            }
+
+            // null = uma valor, que não é numerico. É como se fosse um 0, mas não é um 0.
 
 
 
