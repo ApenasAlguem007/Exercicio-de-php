@@ -16,11 +16,10 @@
 $nome = "Samuel";
 $sobrenome = "Santos Rodrigues";
 
-const pesquisa = "Temperatura local ";
+const frase = "seja Bem-vindo ao nosso Site!";
 
-echo "Olá, $nome  $sobrenome, seja Bem-vindo ao nosso Site! <br></br>";
-echo "Sua pesquisa anterior foi referente à " . pesquisa . "deseja retomá-la?"
-
+echo "Olá, $nome $sobrenome " . frase ;
+ 
 ?>
 
 

@@ -7,10 +7,19 @@
 </head>
 <body>
 
+<p> Empréstimo Bancário </p>
+
 <?php 
 
-$valoremreal
+$emprestimo = 1000;
+$parcelas = 10;
+$juros = 1 + 0.15;
 
+
+
+$calc = $emprestimo*($juros)/$parcelas;
+
+echo "o empréstimo efetuado foi de: R$ $calc ";
 
 ?>
 
