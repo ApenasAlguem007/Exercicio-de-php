@@ -40,7 +40,6 @@ echo "<br>";
 echo "<br>";
 
 // mudando o valor da pposiçao 1 para 25
-
 $array[1] = 25; 
 
 echo "Array após alterar o valor na posição 1 para 25: ";
