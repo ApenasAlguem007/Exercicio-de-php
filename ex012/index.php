@@ -42,16 +42,18 @@
                     }
                
                     echo "<br>";
-                    
-                    // do while 
 
+            // do while 
             $g = 1;
+
              do {
                  echo $g . "<br>";
                  $g++;
             } while ($g <= 7 );
 
-    
+    // a diferença: Do while efetua o comando ao menos 1 vez, mesmo não sendoo requisitado. Já o While, não demonstra, ele sequer executa.
+
+
     ?>
 
 </body>
