@@ -50,8 +50,23 @@
             foreach($frutas as $fruta){
                 echo $fruta . "<br>"; 
 
-        }
+             }
 
+        echo "<br>";
+
+        $idades = [
+            "João" => 25,
+            "Maria" => 30,
+            "Pedro" => 22
+            ];
+
+            foreach ( $idades as $nome => $idade){
+
+                // exibe nome e idade.
+
+                echo "$nome tem $idade anos. <br>"; 
+
+                    }
 
     ?>
 
