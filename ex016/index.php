@@ -69,13 +69,16 @@
 
    $akira = new Pessoa();
     $akira->nome = "Akira";
-    $akira->idade = 30;
+    $akira->idade = 20;
 
     $akira->saudacao(); // exibe a saudação com os dados de Akira
 
+    $maria = new Pessoa();
+    $maria-> nome = "Maria";
+    $maria-> idade = 34;
+
+   $maria-> saudacao(); // exibe a saudação com os dados de maria agora. 
    
-    
-    
     ?>
 
 
