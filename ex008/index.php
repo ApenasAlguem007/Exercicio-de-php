@@ -19,14 +19,18 @@
         }
 
 
+
+        // declarando fora 
+
         $idade = 16;
 
         if ($idade >= 18) {
             echo " você é maior de idade";
         }
-
-
         echo "<br>";
+
+
+
         // conditional else
 
         $a = 10;
@@ -39,8 +43,10 @@
         }
 
         // else = se não; sempre.
-
         echo "<br>";
+
+
+
     // conditional ElseIf
 
 $idadepessoa = 25;
